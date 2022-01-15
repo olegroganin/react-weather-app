@@ -1,80 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
-	padding: 0;
-	margin: 0;
-	border: 0;
+   padding: 0;
+   margin: 0;
+   border: 0;
 }
 
 *,
 *:before,
 *:after {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 :focus,
 :active {
-	outline: none;
+   outline: none;
 }
 
 a,
 a:visited,
 a:hover {
-	text-decoration: none;
+   text-decoration: none;
 }
 
 a:focus,
 a:active {
-	outline: none;
+   outline: none;
 }
 
 nav,
 footer,
 header,
 aside {
-	display: block;
+   display: block;
 }
 
 html,
 body {
-	height: 100%;
-	width: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	font-family: "Nunito", sans-serif;
-	scroll-behavior: smooth;
+   height: 100%;
+   width: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   font-family: "Nunito", sans-serif;
+   scroll-behavior: smooth;
 }
 
 input,
 button,
 textarea {
-	font-family: inherit;
+   font-family: inherit;
 }
 
 input::-ms-clear {
-	display: none;
+   display: none;
 }
 
 button {
-	cursor: pointer;
+   cursor: pointer;
 }
 
 button::-moz-focus-inner {
-	padding: 0;
-	border: 0;
+   padding: 0;
+   border: 0;
 }
 
 ul li {
-	list-style: none;
+   list-style: none;
 }
 
 img {
-	vertical-align: top;
+   vertical-align: top;
 }
 
 h1,
@@ -83,14 +83,14 @@ h3,
 h4,
 h5,
 h6 {
-	font-size: inherit;
-	font-weight: 400;
+   font-size: inherit;
+   font-weight: 400;
 }
 
 /*---------------------------*/
 
 .weatherapp {
-	color: #fff;
+   color: #fff;
 }
 
 .container {
@@ -99,7 +99,7 @@ h6 {
    padding: 55px 15px 0;
    text-align: center;
    width:100%;
-	background: url(../src/panorama.jpg) 50% no-repeat;
+   background: url(../src/panorama.jpg) 50% no-repeat;
    background-size: cover;
    width: 100%;
    min-height: 100vh;
@@ -108,18 +108,18 @@ h6 {
 }
 
 .weatherapp-title {
-	font-size: 25px;
-	font-weight: bold;
-	padding-bottom: 45px;
-	text-shadow: 2px 2px 2px black;
+   font-size: 25px;
+   font-weight: bold;
+   padding-bottom: 45px;
+   text-shadow: 2px 2px 2px black;
 }
 
 .weatherapp-input {
-	padding:13px;
-	border: 2px solid black;
-	margin-bottom:55px;
-	border-radius: 20px;
-	font-size: 20px;
+   padding:13px;
+   border: 2px solid black;
+   margin-bottom:55px;
+   border-radius: 20px;
+   font-size: 20px;
 }
 
 .weatherapp-info p {
@@ -134,6 +134,6 @@ h6 {
 }
 
 .weatherapp-info-transition-enter-active {
-	opacity:1;
-	transition: opacity 700ms;
+   opacity:1;
+   transition: opacity 700ms;
 }
