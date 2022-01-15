@@ -7,16 +7,16 @@ function WeatherInput({city, setCity}) {
    }
 
    return (
-	   <>
-			<label>
-	         <input 
-				   className='weatherapp-input' 
-				   type="text" 
-	            placeholder='Enter your city...' 
-	            onChange={handleChange} 
-	            value={city} 
-	         />	
-			</label>
+      <>
+         <label>
+	    <input 
+               className='weatherapp-input' 
+	       type="text" 
+	       placeholder='Enter your city...' 
+	       onChange={handleChange} 
+	       value={city} 
+	    />	
+         </label>
       </>
    )
 }
